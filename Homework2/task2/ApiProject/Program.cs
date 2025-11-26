@@ -60,7 +60,6 @@ app.MapPut("/api/someentity/{id}", (int id, SomeEntity entity) =>
     if (existing == null) return Results.NotFound();
     
     existing.Name = entity.Name;
-    existing.Description = entity.Description;
     existing.Status = entity.Status;
     
     return Results.Ok(existing);
@@ -104,7 +103,7 @@ app.MapGet("/api/someentity/{id}/print", (int id) =>
 {
     var entity = entities.FirstOrDefault(e => e.Id == id);
     return entity != null 
-        ? Results.Ok($"Printed: {entity.Name} - {entity.Description}") 
+        ? Results.Ok($"Printed: {entity.Name} - {entity.Name}") 
         : Results.NotFound();
 });
 
@@ -163,7 +162,6 @@ app.MapPost("/api/someimageentity", (SomeImageEntity entity) =>
         if (existing == null) return Results.NotFound();
         
         existing.Name = entity.Name;
-        existing.Description = entity.Description;
         existing.Status = entity.Status;
         existing.ImageUrl = entity.ImageUrl;
         
@@ -171,20 +169,17 @@ app.MapPost("/api/someimageentity", (SomeImageEntity entity) =>
     }
 });
 
-app.MapGet("/api/someimageentity/filter", (string? name, string? description, string? status, int page = 1, int pageSize = 10) =>
+app.MapGet("/api/someimageentity/filter", (string? name, string? status) =>
 {
     var query = imageEntities.AsQueryable();
     
     if (!string.IsNullOrEmpty(name))
         query = query.Where(e => e.Name.Contains(name, StringComparison.OrdinalIgnoreCase));
         
-    if (!string.IsNullOrEmpty(description))
-        query = query.Where(e => e.Description.Contains(description, StringComparison.OrdinalIgnoreCase));
-        
     if (!string.IsNullOrEmpty(status))
         query = query.Where(e => e.Status == status);
         
-    var result = query.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+    var result = query.ToList();
     return Results.Ok(result);
 });
 //

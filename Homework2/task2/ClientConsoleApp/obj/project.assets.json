@@ -18,6 +18,20 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "ClientLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Scalar.AspNetCore": "2.11.0",
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ClientLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClientLibrary.dll": {}
+        }
+      },
       "Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -53,6 +67,11 @@
         "scalar.aspnetcore.nuspec"
       ]
     },
+    "ClientLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ClientLibrary/ClientLibrary.csproj",
+      "msbuildProject": "../ClientLibrary/ClientLibrary.csproj"
+    },
     "Shared/1.0.0": {
       "type": "project",
       "path": "../Shared/Shared.csproj",
@@ -61,6 +80,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "ClientLibrary >= 1.0.0",
       "Scalar.AspNetCore >= 2.11.0",
       "Shared >= 1.0.0"
     ]
@@ -90,6 +110,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework2/task2/ClientLibrary/ClientLibrary.csproj": {
+              "projectPath": "/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework2/task2/ClientLibrary/ClientLibrary.csproj"
+            },
             "/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework2/task2/Shared/Shared.csproj": {
               "projectPath": "/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework2/task2/Shared/Shared.csproj"
             }

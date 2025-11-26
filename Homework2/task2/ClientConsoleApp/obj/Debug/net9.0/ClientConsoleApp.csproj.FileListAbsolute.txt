@@ -18,3 +18,5 @@
 /Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework2/task2/ClientConsoleApp/obj/Debug/net9.0/ClientCo.48DB5F5D.Up2Date
 /Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework2/task2/ClientConsoleApp/bin/Debug/net9.0/Shared.dll
 /Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework2/task2/ClientConsoleApp/bin/Debug/net9.0/Shared.pdb
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework2/task2/ClientConsoleApp/bin/Debug/net9.0/ClientLibrary.dll
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework2/task2/ClientConsoleApp/bin/Debug/net9.0/ClientLibrary.pdb
