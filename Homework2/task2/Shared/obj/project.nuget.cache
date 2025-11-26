@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SGt40qOhYy8=",
+  "success": true,
+  "projectFilePath": "/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework2/task2/Shared/Shared.csproj",
+  "expectedPackageFiles": [
+    "/Users/lukaurushadze/.nuget/packages/scalar.aspnetcore/2.11.0/scalar.aspnetcore.2.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}

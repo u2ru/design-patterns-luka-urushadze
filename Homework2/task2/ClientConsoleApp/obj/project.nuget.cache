@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CMtp3DoBDNo=",
+  "success": true,
+  "projectFilePath": "/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework2/task2/ClientConsoleApp/ClientConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/lukaurushadze/.nuget/packages/scalar.aspnetcore/2.11.0/scalar.aspnetcore.2.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}
