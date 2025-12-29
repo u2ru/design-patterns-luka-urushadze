@@ -1,0 +1,15 @@
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/bin/Debug/net9.0/Homework3
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/bin/Debug/net9.0/Homework3.deps.json
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/bin/Debug/net9.0/Homework3.runtimeconfig.json
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/bin/Debug/net9.0/Homework3.dll
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/bin/Debug/net9.0/Homework3.pdb
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/obj/Debug/net9.0/Homework3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/obj/Debug/net9.0/Homework3.AssemblyInfoInputs.cache
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/obj/Debug/net9.0/Homework3.AssemblyInfo.cs
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/obj/Debug/net9.0/Homework3.csproj.CoreCompileInputs.cache
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/obj/Debug/net9.0/Homework3.sourcelink.json
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/obj/Debug/net9.0/Homework3.dll
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/obj/Debug/net9.0/refint/Homework3.dll
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/obj/Debug/net9.0/Homework3.pdb
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/obj/Debug/net9.0/Homework3.genruntimeconfig.cache
+/Users/lukaurushadze/Desktop/EHU/design-patterns-luka-urushadze/Homework3/obj/Debug/net9.0/ref/Homework3.dll
